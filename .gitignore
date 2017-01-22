@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+selected.txt
+
+
 # C extensions
 *.so
 
