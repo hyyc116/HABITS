@@ -1,4 +1,4 @@
-# HAIBITS
+# Stroke-findings
 We aim to find some potential physical treatments for stroke. There are two methods used in this project. <br>
 1. co-citation based <br>
 2. network based
