@@ -1,7 +1,7 @@
 # Stroke-findings
-We aim to find some potential physical treatments for stroke. There are two methods used in this project. <br>
+We aim to find some potential physical treatments for stroke. There are two methods used in this project. 
 
-	1. co-citation based <br>
+	1. co-citation based 
 	2. network based
 =====================
 ###1. Co-citation based
