@@ -1,6 +1,12 @@
 ###Diseases-Scales-Therapies Network
 This directory mainly includes the codes of DSTN based therapy finding.
 
+###Prerequisites
+	[NLTK](http://www.nltk.org)  
+	[CHUNK PARSER](https://github.com/biplab-iitb/practNLPTools) 
+
+
+
 ####1. Crawled stroke related papers from PubMed with Crawler. 
 	data file is one record one line, line format is pmid \t abstract.
 ####2. Extract all NPs by using np_extractor.py. 

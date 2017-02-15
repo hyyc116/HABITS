@@ -1,6 +1,5 @@
 #coding:utf-8
 import sys
-from coocurrence import extract_paper
 from chunk_parser import *
 import datetime
 from multiprocessing.dummy import Pool as ThreadPool
@@ -39,10 +38,6 @@ def extract_NPs(data):
     pmcid,abstext = data
     abstext = unicode(abstext,errors="ignore")
     start = datetime.datetime.now()
-    #pmcid,title,abstext = extract_paper(path)
-    #now = datetime.datetime.now()
-    #sys.stderr.write("abstext:{:}\n".format((now-start).seconds))
-    #start=now
     np_set=[]
     tag_set=[]
     for iobtags in chunk_content(abstext):
