@@ -6,6 +6,7 @@ We aim to find some potential physical treatments for stroke. There are two meth
 =====================
 ###1. Co-citation based
 Based on co-citation relations, we found some latent knowledge, and use latent knowledge to find potential therapies for stroke.
+
 ![image](co-citation.png)
 
 ====================
