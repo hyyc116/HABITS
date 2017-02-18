@@ -32,4 +32,4 @@ In this step, we could use the therapies in stroke_therapy.txt as KNOWN_THERAPIE
 
 ####8. Human Checking and get the final result.
 	Although, we have got a result, but due to the precision in therapy extraction,  
-	there are still some nosies in the NEW_THERAPIES which will be filtered by human checking. 
+	there are still some nosies in the NEW_THERAPIES which will be filtered out by human checking. 
