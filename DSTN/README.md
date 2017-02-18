@@ -21,11 +21,15 @@ This directory mainly includes the codes of DSTN based therapy finding.
 	File is named as scales.txt in which one record one line, line format is pmid \t abstract.
 
 ####6. Extract all possible therapies from crawled scales data.
-	python np_extractor.py scale_NPs.txt stroke_abs.txt 1>>scale_NPs.txt 2>run.log 
+python np_extractor.py scale_NPs.txt stroke_abs.txt 1>>scale_NPs.txt 2>run.log 
 	python therapy_filter.py scale_NPs.txt > scale_therapy.txt 
 
 ####7. Filter out therapies already in KNOWN_TERAPIES and got a collection NEW_THERAPIES and the intermediate SCALE name between new therapy and stroke.
-	In this step, we could use the therapies in stroke_therapy.txt as KNOWN_THERAPIES to filter the result.
+	In this step, we could use the therapies in stroke_therapy.txt as KNOWN_THERAPIES to filter the result. 
+
+	python scale_new_therapy_linking.py stroke_therapy.txt stroke_scale.txt scale_therapy.txt scale_NPs.txt > test_new_therapy_links.txt 
+
 
 ####8. Human Checking and get the final result.
-	Although, we have got a result, but due to the precision in therapy extraction, there are still some nosies in the NEW_THERAPIES which will be filtered by human checking. 
+	Although, we have got a result, but due to the precision  
+	in therapy extraction, there are still some nosies in the NEW_THERAPIES which will be filtered by human checking. 
