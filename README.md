@@ -3,10 +3,9 @@ We aim to find some potential physical treatments for stroke. There are two meth
 
 
 
-###Diseases-Scales-Therapies Network
+### Diseases-Scales-Therapies Network
 The code are mainly included in directory DSTN.
 main procedure is as follows:
 
 ![image](procedures.png)
 
-===============
