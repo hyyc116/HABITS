@@ -38,6 +38,7 @@ def extract_NPs(data):
     pmcid,abstext = data
     abstext = unicode(abstext,errors="ignore")
     start = datetime.datetime.now()
+    tag_list=[]
     np_set=[]
     tag_set=[]
     for iobtags in chunk_content(abstext):
