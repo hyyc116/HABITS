@@ -9,7 +9,6 @@ main procedure is as follows:
 
 ![image](procedures.png)
 
-### Cite Us
 
 ### Contact Us
 
