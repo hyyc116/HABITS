@@ -9,7 +9,11 @@ main procedure is as follows:
 
 ![image](procedures.png)
 
+### Cite Us
+
 ### Contact Us
 
+    Guilin Meng（15216758879@163.com）
+    Yong Huang (hyyc116@gmail.com)
 
 
