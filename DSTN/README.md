@@ -40,4 +40,4 @@ In this step, we could use the therapies in stroke_therapy.txt as KNOWN_THERAPIE
 	there are still some nosies in the NEW_THERAPIES which will be filtered out by human checking.
 
 
-(we share the data crawled from pubmed in data folder, the internal files generated in the processing can be gotten by running the code.)
+(We share the data crawled from pubmed in data folder, the internal files generated in the processing can be gotten by running the code.)
